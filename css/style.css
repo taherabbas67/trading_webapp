@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Coda&family=Gruppo&family=Handlee&family=Indie+Flower&family=Kalam:wght@300&family=Marck+Script&family=Poiret+One&family=Sacramento&family=Ubuntu:wght@300;400&display=swap');
+
+/*
+font-family: 'Bad Script', cursive;
+font-family: 'Coda', cursive;
+font-family: 'Gruppo', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #040629;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.navCenterDiv{
+    display: flex;
+    align-items: center;
+}
+.navItems{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #EEEEEE;
+}
+.navItems p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo{
+    width: 180px;
+    height: auto;
+}
+.navLogin{
+    width: 40px;
+    height: auto;
+}
+
+
+/* body main */
+.bodyMain{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.bodyLeft{
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title1{
+    font-size: 55px;
+    color: #EEEEEE;
+    font-family: 'Handlee', cursive;
+}
+.pRed{
+    color: #B20600;
+}
+.description{
+    color: #EEEEEE;
+    font-size: 24px;
+    font-family: 'Poiret One', cursive;
+    padding-top: 10px;
+}
+/* button */
+.btn{
+    background-color: #040629;
+    color: #EEEEEE;
+    border: 2px solid #EEEEEE; /* Green */
+    border-radius: 10px;
+    display : flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 14px 40px;
+    cursor: pointer;
+}
+.btnTxt{
+    color: #EEEEEE;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btnIcon{
+    width: 25px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+/* button hover */
+.btn:hover{
+    background-color: #EEEEEE;
+}
+.btn:hover p{
+    color: #040629;
+}
+.btn:hover img{
+    display: none;
+}
+
+.bodyRight{
+    width: 35%;
+}
+.mainImg{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 10px;
+    min-height: 10vh;
+}
+.fPara{
+    color: #EEEEEE;
+    font-family: 'Ubuntu', sans-serif;
+}

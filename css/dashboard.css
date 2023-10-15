@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Coda&family=Gruppo&family=Handlee&family=Indie+Flower&family=Kalam:wght@300&family=Marck+Script&family=Poiret+One&family=Sacramento&family=Ubuntu:wght@300;400&display=swap');
+
+/*
+font-family: 'Bad Script', cursive;
+font-family: 'Coda', cursive;
+font-family: 'Gruppo', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* body main */
+
+.bodyMain{
+    display: flex;
+}
+
+.leftFixMenu{
+    background-color: #040629;
+    width: 320px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+.profilePicDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.profilePic{
+    width: 200px;
+    height: auto;
+}
+.nameDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.p1name{
+    color: #EEEEEE;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 21px;
+}
+.p2number{
+    color: #EEEEEE;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* button */
+.btnDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn{
+    background-color: #040629;
+    color: #EEEEEE;
+    border: 2px solid #EEEEEE;
+    border-radius: 10px;
+    padding: 12px 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+}
+.btn:hover{
+    background-color: #EEEEEE;
+    color: #040629;
+}
+.btnD{
+    background-color: #EEEEEE;
+    color: #040629;
+    border: 2px solid #EEEEEE;
+    border-radius: 10px;
+    padding: 12px 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+}
+
+.logoutDiv{
+    display: flex;
+    justify-content: center;
+    /*margin-top: 80px;*/
+    margin-top: 18vh;
+}
+.logout{
+    color: #EEEEEE;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    display: flex;
+}
+.icon{
+    width: 25px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+}
+
+
+
+.mainPage{
+    background-color: white;
+    width: 100%;
+}
+.dasht1{
+    color: #040629;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    margin: 30px;
+}
+.t1red{
+    color: #B20600;
+    font-size: 50px;
+}
+
+/* proft & loss table div*/
+
+table{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.plTableDiv{
+   display: flex;
+}
+
+.pTableDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    width: 40%;
+    text-align: center;
+}
+.profitTableP{
+    color: green;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.lossTableP{
+    color: red;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+.lTableDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    width: 40%;
+    text-align: center;
+}
+
+th, td{
+    padding: 20px;
+}
